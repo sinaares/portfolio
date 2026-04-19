@@ -22,7 +22,7 @@ function LinkedInIcon({ size = 15 }: { size?: number }) {
 const SOCIALS = [
   { Icon: GitHubIcon,   label: "GitHub",   href: "https://github.com/sinaares",                                          external: true  },
   { Icon: LinkedInIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/seyedsina-seyedhashemi-07372b289/",        external: true  },
-  { Icon: Mail,         label: "Email",    href: "mailto:maghazada89@gmail.com",                                          external: false },
+  { Icon: Mail,         label: "Email",    href: "mailto:sina.hash98@gmail.com",                                          external: false },
 ] as const;
 
 export function Footer() {

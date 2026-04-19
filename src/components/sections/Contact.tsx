@@ -109,7 +109,7 @@ export function Contact() {
     e.preventDefault();
     const subject = encodeURIComponent(`Portfolio contact from ${form.name}`);
     const body    = encodeURIComponent(`From: ${form.name}\nEmail: ${form.email}\n\n${form.message}`);
-    window.location.href = `mailto:maghazada89@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:sina.hash98@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
@@ -158,8 +158,8 @@ export function Contact() {
               <ContactCard
                 icon={<Mail size={18} />}
                 label="Email"
-                value="maghazada89@gmail.com"
-                href="mailto:maghazada89@gmail.com"
+                value="sina.hash98@gmail.com"
+                href="mailto:sina.hash98@gmail.com"
                 accent="text-indigo-400"
                 bg="bg-indigo-500/8 border-indigo-500/15"
               />
